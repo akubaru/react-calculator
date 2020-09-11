@@ -7,9 +7,8 @@ export default class Display extends React.Component {
 
     render() {
         return (
-            <div id="calc-display" className="row-1-2 col-1-4">
-                <span id="eq">{this.props.equation}</span>
-                <span id="display">{this.props.display}</span>
+            <div className="outputScreen" id="display">
+                {this.props.display}
             </div>
         )
     }
